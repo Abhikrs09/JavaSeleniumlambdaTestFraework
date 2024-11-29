@@ -1,0 +1,1 @@
+{"uuid":"76a7a2a0-5eda-434d-8cc0-bf3e94b3becb","name":"basePackage.basePage.setUp","children":["2ca43091-15f9-448a-a3a0-06d5d90098fd"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1732795421929,"stop":1732795423526}],"afters":[],"start":1732795421929,"stop":1732795423526}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+    <test name="Test">
+        <classes>
+            <class name="basePackage.basePage"/>
+            <class name="testCases.testCheckboxPage"/>
+            <class name="testCases.testDragAndDrop"/>
+            <class name="testCases.testDropDownSearchDemoPage"/>
+            <class name="testCases.testDynamicDataLoading"/>
+            <class name="testCases.testHandelWindowsPage"/>
+            <class name="testCases.testSliderDemoPage"/>
+            <!-- Uncomment the following lines to include additional test classes -->
+            <!-- <class name="testCases.testDatePickerPage"/> -->
+            <!-- <class name="testCases.testJavaScriptAlertBoxPage"/> -->
+            <!-- <class name="testCases.testKeyPressFromKeyBoard"/> -->
+        </classes>
+    </test>
+</suite>

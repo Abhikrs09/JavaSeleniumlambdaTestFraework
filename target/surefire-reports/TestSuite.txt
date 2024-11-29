@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 71.844 s <<< FAILURE! - in TestSuite
+testCases.testCheckboxPage.MutlipleCheckBox  Time elapsed: 1.139 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://www.lambdatest.com/selenium-playground/checkbox-demo" class="text-black text-size-14 hover:text-lambda-900 leading-relaxed">...</a> is not clickable at point (144, 377). Other element would receive the click: <li class="">...</li>
+  (Session info: chrome=130.0.6723.93)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab5bdc9c067e12eb66ce9abb095df713, clickElement {id=f.74BB4C779ECC8F0F50E6375FDC290B45.d.921E1A424373F2FE421163DE351E1CB3.e.54}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.93, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Abhi\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51556/devtoo..., se:cdpVersion: 130.0.6723.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab5bdc9c067e12eb66ce9abb095df713)] -> xpath: //a[contains(text(),'Checkbox Demo')]]
+Session ID: ab5bdc9c067e12eb66ce9abb095df713
+	at testCases.testCheckboxPage.MutlipleCheckBox(testCheckboxPage.java:73)
+
+testCases.testHandelWindowsPage.handelTwitterPage  Time elapsed: 38.927 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "webElement" is null
+	at testCases.testHandelWindowsPage.handelTwitterPage(testHandelWindowsPage.java:46)
+
+testCases.testHandelWindowsPage.testStatus[[TestResult name=handelTwitterPage status=FAILURE method=testHandelWindowsPage.handelTwitterPage()[pri:0, instance:testCases.testHandelWindowsPage@26a4842b] output={null}]](0)  Time elapsed: 38.927 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.93)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0105723629dce1eb3804369d1dddc5b1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.93, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\Abhi\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51794}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51794/devtoo..., se:cdpVersion: 130.0.6723.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0105723629dce1eb3804369d1dddc5b1
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-02T14:03:40 IST" name="Default suite" finished-at="2024-02-02T14:04:11 IST" duration-ms="30856">
+    <groups>
+    </groups>
+    <test started-at="2024-02-02T14:03:40 IST" name="Default test" finished-at="2024-02-02T14:04:11 IST" duration-ms="30856">
+      <class name="testCases.testCheckboxPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:03:40 IST" name="setUp" finished-at="2024-02-02T14:03:50 IST" duration-ms="9334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.testCheckboxPage.DisableCheckBoxDemo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DisableCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:03:50 IST" name="DisableCheckBoxDemo" finished-at="2024-02-02T14:03:51 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisableCheckBoxDemo -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:03:51 IST" name="testStatus" finished-at="2024-02-02T14:03:52 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DisableCheckBoxDemo status=SUCCESS method=testCheckboxPage.DisableCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@f325091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:03:52 IST" name="setUp" finished-at="2024-02-02T14:03:57 IST" duration-ms="5776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.testCheckboxPage.MutlipleCheckBox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MutlipleCheckBox()[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:03:57 IST" name="MutlipleCheckBox" finished-at="2024-02-02T14:04:01 IST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MutlipleCheckBox -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:04:01 IST" name="testStatus" finished-at="2024-02-02T14:04:01 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MutlipleCheckBox status=SUCCESS method=testCheckboxPage.MutlipleCheckBox()[pri:0, instance:testCases.testCheckboxPage@f325091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:04:01 IST" name="setUp" finished-at="2024-02-02T14:04:09 IST" duration-ms="7664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.testCheckboxPage.SingleCheckBoxDemo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SingleCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:04:09 IST" name="SingleCheckBoxDemo" finished-at="2024-02-02T14:04:10 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleCheckBoxDemo -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testCases.testCheckboxPage@f325091]" started-at="2024-02-02T14:04:10 IST" name="testStatus" finished-at="2024-02-02T14:04:11 IST" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingleCheckBoxDemo status=SUCCESS method=testCheckboxPage.SingleCheckBoxDemo()[pri:0, instance:testCases.testCheckboxPage@f325091] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testCases.testCheckboxPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
