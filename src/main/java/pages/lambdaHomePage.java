@@ -62,6 +62,25 @@ public class lambdaHomePage {
 	@FindBy(xpath = "//a[contains(text(),'Javascript Alerts')]")
 	private WebElement btnJavaScriptAlert;
 
+	@FindBy (xpath = "//a[contains(text(),'Platform')]")
+	private WebElement btnPlatform;
+
+	public void hoverPlatformBtn(){  elemUtils.hover(btnPlatform,CommonData.EXPLICIT_WAIT_BASIC_TIME);   }
+
+	@FindBy (xpath ="//p[contains(text(),'Online Browser Testing')]")
+	private WebElement btnDisapper_Online_Browser_Testing;
+
+	public void clickbtnDisapperOnline_Browser_Testing(){
+		elemUtils.clickOnElement(btnDisapper_Online_Browser_Testing,CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+
+	@FindBy (xpath = "//h1[contains(text(),'Cross Browser Testing On')]")
+	private WebElement headingDisapperLinkPage;
+
+	public String getDisappearPageHeading(){
+		return elemUtils.getTextFromElement(headingDisapperLinkPage,CommonData.EXPLICIT_WAIT_BASIC_TIME);
+	}
+
 
 	@FindBy(xpath ="//a[contains(text(),'iFrame Demo')]")
 	private WebElement btniFrameDemo;

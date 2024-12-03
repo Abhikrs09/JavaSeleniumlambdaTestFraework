@@ -1,6 +1,1 @@
-2024-11-29 11:10:13.098 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Verifying the SelectCountry test -----
-2024-11-29 11:10:13.117 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Reading country from properties file -----
-2024-11-29 11:10:16.275 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Verifying the SelectCountry test -----
-2024-11-29 11:10:16.276 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Reading country from properties file -----
-2024-11-29 11:10:19.172 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Verifying the SelectCountry test -----
-2024-11-29 11:10:19.174 [main] INFO  testCases.testDropDownSearchDemoPage - ----- Reading country from properties file -----
+2024-12-02 16:23:07.481 [main] INFO  basePackage.basePage - Test case passed
