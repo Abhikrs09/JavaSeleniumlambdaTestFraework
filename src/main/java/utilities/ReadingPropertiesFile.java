@@ -14,7 +14,7 @@ public class 	ReadingPropertiesFile {
 
 	// Static block to initialize class variables
 	static {
-		{
+
 					file = new File(System.getProperty("user.dir")+"//resources//config.properties");
 			try {
 				fis = new FileInputStream(file);
@@ -28,7 +28,7 @@ public class 	ReadingPropertiesFile {
 				e.printStackTrace();
 
 			}
-		}
+
 	}
 
 	public static String getProperty(String key) {

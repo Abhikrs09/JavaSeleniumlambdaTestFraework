@@ -16,7 +16,8 @@ public class checkBoxPage {
 	
 	public checkBoxPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+
+
         elemUtils = new elementsUtils(driver);
     }
 	
